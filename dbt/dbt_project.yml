@@ -1,0 +1,7 @@
+name: 'ageing_pipeline'
+version: '1.0'
+profile: 'ageing_profile'
+models:
+  ageing_pipeline:
+    staging:
+      materialized: table

@@ -1,0 +1,12 @@
+ageing_profile:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres
+      user: airflow
+      password: airflow
+      dbname: ageing
+      schema: public
+      threads: 1
+      port: 5432
